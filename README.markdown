@@ -11,7 +11,7 @@ This is currently a work in progress in terms of open sourcing. I built this ori
 
 ## Installation
 
-To install Lipstick, you'll first need to have Hadoop and Pig properly installed. There are instructions for this on [Confluence](http://confluence:8090/display/tech/How+to+Configure+Your+Computer+to+Use+Hadoop). Once this is finished:
+To install Lipstick, you'll first need to have Hadoop and Pig properly installed. There are instructions for this all over the internet. Once this is finished:
 
 1. Simply git clone the project 
 2. Add *path/to/Lipstick/resources/jython-standalone-2.5.2.jar* to your PIG_CLASSPATH. Go ahead and do this in your .bashrc so you never need to worry about it again. That's it. 
@@ -29,7 +29,7 @@ There are two main use cases as of this writing. Both involve generating a two d
 
 ##Use
 
-To generate a graph, simply run **pig name_of_generating_script.py**. That will generate a graph at http://datavis.shuttercorp.net/grapht/?/[OUTPUT_NAME_SUPPLIED_IN_SCRIPT]/main
+To generate a graph, simply run **pig name_of_generating_script.py**. That would have generated a graph on Shutterstock's graphing site. Since I no longer have access to that, I'll built my own, and allow graphs to be generated through matplotlib. Stay tuned.
 
 ##Brief Howto
 
